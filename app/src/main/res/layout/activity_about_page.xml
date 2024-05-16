@@ -1,0 +1,132 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".About_page">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:id="@+id/constraintLayout"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageButton"
+            android:layout_width="364dp"
+            android:layout_height="204dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/glimbse_about"
+            android:contentDescription="Description of the image button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="138dp"
+            android:layout_height="119dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton"
+            app:srcCompat="@drawable/bittu" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="138dp"
+            android:layout_height="119dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="56dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton"
+            app:srcCompat="@drawable/kajal" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="12dp"
+            android:background="#CCCCCC"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView1" />
+
+        <TextView
+            android:id="@+id/myTextView1"
+            android:layout_width="398dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="About Our A Glimpse of Life App"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/purple_500"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:background="#CCCCCC"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/myTextView1" />
+
+        <TextView
+            android:id="@+id/myTextView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:text="Experience A Glimpse of Life app: where collaboration fuels creativity. Enjoy real-time writing with an intuitive Java interface and Firebase authentication. Instant updates via Socket.io, clarity with syntax highlighting. Rigorously tested for reliability and security. Join a vibrant community where sharing fosters growth. Embrace a new era of journaling with enhanced security, seamless user experience, and real-time collaboration. Capture and share moments like never before.
+                   Welcome to an exciting journey!"
+
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="12dp"
+            android:background="#CCCCCC"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/myTextView2" />
+
+        <TextView
+            android:id="@+id/myTextView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="Developed By BittuKumar Prajapati @2024"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view4" />
+        <View
+            android:id="@+id/view5"
+            android:layout_width="0dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="12dp"
+            android:background="#CCCCCC"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/myTextView3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
