@@ -1,5 +1,6 @@
 <h1>A Glimpse Life App</h1>
-<objective></objective>
+<h4>In today's connected world, teamwork drives personal growth and creativity. The Real-time Life Snapshot App aids collaboration by capturing moments, fostering sharing, and encouraging reflection. It builds community, promotes growth, and enhances self-discovery, creating a supportive space where ideas flourish and connections thrive.</h4>
+
 ![Start_page](https://github.com/Bittu-kumar2003/A_Glimpse_Life_App/assets/109884531/16df7a9a-00c8-417e-9dff-d94735893d1a)
 ![Login_page](https://github.com/Bittu-kumar2003/A_Glimpse_Life_App/assets/109884531/236dbcc8-fa40-4f94-8cee-02a3b4a7a07c)
 ![Dashboard](https://github.com/Bittu-kumar2003/A_Glimpse_Life_App/assets/109884531/b0f6e8d0-754b-48bf-bba3-03cb9b75507b)
