@@ -17,15 +17,20 @@
   <li><a href="https://kotlinlang.org/docs/android-overview.html">Kotlin</a></li>
   <li><a href=https://developer.android.com/reference/org/w3c/dom/Document">Android studio app</a></li>
 </ul>
+<h1>Features</h1>  
+  <ol>
+    <li>Starting_page</li>
+  </ol>
+  
+  ![Start_page](https://github.com/Bittu-kumar2003/A_Glimpse_Life_App/assets/109884531/055e1f4c-494d-404d-a5d6-9b226ecb8732)
+
 <h1>Download</h1>
 <ul>
   <li>Drive link<a href="https://dev.java/learn/">Code_Downlaod</a></li>
   <li>Github link<a href="https://dev.java/learn/">Code_Downlaod</a></li>
-  
 </ul>
 
 
-![Start_page](https://github.com/Bittu-kumar2003/A_Glimpse_Life_App/assets/109884531/16df7a9a-00c8-417e-9dff-d94735893d1a)
 ![Login_page](https://github.com/Bittu-kumar2003/A_Glimpse_Life_App/assets/109884531/236dbcc8-fa40-4f94-8cee-02a3b4a7a07c)
 ![Dashboard](https://github.com/Bittu-kumar2003/A_Glimpse_Life_App/assets/109884531/b0f6e8d0-754b-48bf-bba3-03cb9b75507b)
 ![Create_account](https://github.com/Bittu-kumar2003/A_Glimpse_Life_App/assets/109884531/71325861-f1b3-4140-b51c-5677c0a64f68)
